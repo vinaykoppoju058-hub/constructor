@@ -1,6 +1,6 @@
-package com.constructot;
+package com.constructor;
 import java.util.Scanner;
-import com.constructot.*;
+import com.constructor.*;
 
 public class EmployeeProcessor {
 
