@@ -14,16 +14,12 @@ public class BankProcessor {
 			double balance= sc.nextDouble();
 			bankAccount obj = new bankAccount(number,name,balance);
 			
-			
-			
 			System.out.println("depost Amount:");
 			double deposit = sc.nextDouble();
 			obj.deposit(deposit);
 			System.out.println("Amount withdrawl:");
 			double withdrawl = sc.nextDouble();
-			obj.withdraw(withdrawl);
-			
-			
+			obj.withdraw(withdrawl);			
 		}
 	}
 
